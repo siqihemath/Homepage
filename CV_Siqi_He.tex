@@ -9,6 +9,7 @@
 \usepackage{hyperref} %for hyperlinks
 \usepackage{geometry} %for page dimensions
 \usepackage{enumitem} %for list formatting
+\usepackage{tabularx} %wrap service entries within the page
 
 \usepackage{amsthm}   
 \usepackage{amsfonts, amsmath, amscd}
@@ -44,7 +45,6 @@
     \textsc{Address:} & Morningside Center of Mathematics, Academy of Mathematics and Systems Science\\
     &No.55 Zhongguancun East Road, Beijing, China, 100190 \\
     \textsc{Birth:} & Heng Yang, China, June 1991 \\
-    \textsc{Phone:} & +8615101639623 \\
     \textsc{Email:} & \href{mailto:siqihemath1991@gmail.com}{siqihemath1991@gmail.com}, \href{mailto:sqhe@amss.ac.cn}{sqhe@amss.ac.cn} \\
 \end{tabular}
 
@@ -255,8 +255,9 @@
 
 % Service
 \section*{Service}
-\begin{tabular}{rl}
+\begin{tabularx}{\textwidth}{@{}rX@{}}
     \textsc{Co-Organizer:} 
+    & \href{https://www.birs.ca/events/2027/5-day-workshops/27w5674}{New Developments in Analytic and Geometric Aspects of Gauge Theory}, Institute for Advanced Study in Mathematics (IASM), Hangzhou, China, May 30--June 4, 2027 (upcoming; BIRS workshop 27w5674)\\
     & Shanghai conference on geometry and physics, Shanghai 2026\\
     & Recent Progresses in Differential Geometry, Beijing 2026\\
     & Low Dimensional Topology and Related Topics, Beijing 2025\\
@@ -278,7 +279,7 @@
     \textsc{Other Committees:} &Committees for Graduate Admission 2024, 2025, 2026, \\
     &Committees for Postdoc Admission 2023, 2024, 2025, 2026,\\
     &ICBS Prize committee for Differential Geometry Section.
-\end{tabular}
+\end{tabularx}
 
 % Languages
 \section*{Languages}
@@ -288,3 +289,4 @@
 \end{tabular}
 
 \end{document}
+
